@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NintendoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="100sp"
+                android:layout_height="300sp"
+                android:layout_marginEnd="261dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/nin_left" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="100sp"
+                android:layout_height="300sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/imageView12"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/nin_right" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="200sp"
+                android:layout_height="300sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageView14"
+                app:layout_constraintStart_toEndOf="@+id/imageView12"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/nin_mid" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.36"
+                app:srcCompat="@drawable/logop" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="150sp"
+                android:layout_height="80sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+                app:layout_constraintEnd_toEndOf="@+id/imageView14"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.927"
+                app:srcCompat="@drawable/ninword" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardElevation="10sp">
+
+            <ProgressBar
+                android:id="@+id/progressBarnin"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20sp"
+                android:progressTint="#E41506" />
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:id="@+id/scrollnin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/light_red">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin001"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView25"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/nintendoe" />
+
+                        <TextView
+                            android:id="@+id/textView23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="Nintendo Entertainment"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin002"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageelite"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/wii" />
+
+                        <TextView
+                            android:id="@+id/textelite"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="Nintendo WII"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin003"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageea"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/nswiu" />
+
+                        <TextView
+                            android:id="@+id/textea"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="Nintendo WII U"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin004"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imagefort"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/nin64" />
+
+                        <TextView
+                            android:id="@+id/textfort"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="Nintendo 64"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin005"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imagegtx"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/gamecube" />
+
+                        <TextView
+                            android:id="@+id/textgtx"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="Nintendo Game Cube"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin006"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imagehp"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/vboy" />
+
+                        <TextView
+                            android:id="@+id/texthp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="Virtual Boy"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin007"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imagemsi"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/gameboy" />
+
+                        <TextView
+                            android:id="@+id/textmsi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="Game Boy"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin008"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imagesony"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/gameboyc" />
+
+                        <TextView
+                            android:id="@+id/textsony"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="GameBoy Coloured"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin009"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imagefk"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/gameboya" />
+
+                        <TextView
+                            android:id="@+id/textfk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="GameBoy Advanced"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin010"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imagepro"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/nintendods" />
+
+                        <TextView
+                            android:id="@+id/textpro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="Nntendo DODS"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin011"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageport"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/colortv" />
+
+                        <TextView
+                            android:id="@+id/textport"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="Color TV"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin012"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imagevita"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/wiiu" />
+
+                        <TextView
+                            android:id="@+id/textvita"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="Nintendo WII U Advanced"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin013"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imagepsf"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/supern" />
+
+                        <TextView
+                            android:id="@+id/textpsf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="Super Nintendo"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin014"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imagewatc"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/gamenwatch" />
+
+                        <TextView
+                            android:id="@+id/textwatc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="Game Watch"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin015"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageds"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/nintendo3dsxl" />
+
+                        <TextView
+                            android:id="@+id/textpds"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="Nintendo 3DS xl"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/nin016"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/light_red"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="15sp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageswitch"
+                            android:layout_width="180sp"
+                            android:layout_height="150sp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/nins" />
+
+                        <TextView
+                            android:id="@+id/textswitch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="20sp"
+                            android:layout_weight="1"
+                            android:text="Nintendo Switch"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

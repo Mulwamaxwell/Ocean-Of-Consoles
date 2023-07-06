@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "723604749472",
+    "project_id": "ocean-of-consoles",
+    "storage_bucket": "ocean-of-consoles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723604749472:android:6131e592a257c825321dc5",
+        "android_client_info": {
+          "package_name": "com.example.oceanofconsoles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723604749472-plbhgd5urtra9u0ut1e0kegikg5t6qo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDUvwURx8ig-_bf4vaqpz1wy1qF99xf-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723604749472-plbhgd5urtra9u0ut1e0kegikg5t6qo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OceanOfConsoles"
+        tools:targetApi="31">
+        <activity
+            android:name=".DeleteprofileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".SocialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NinseventeenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NintwelveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NinsixteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NinfifteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NinfourteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NinthirteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TwelveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NinelevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NintenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NinnineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NineightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NinsevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NinsixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NinfiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NinfourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NinthreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NintwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NinoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PceightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PcsevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PcsixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PcfiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PcfourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PcthreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PctwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PconeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VreightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VrsevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VrsixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VrfiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VrfourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VrthreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VrtwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VroneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetupnineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetupeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetupsevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetupsixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetupfiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetupfourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetupthreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetuptwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SetuponeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaythirteenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaytwelveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayelevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaytenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaynineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayEightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaysevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaysixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayfiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayfourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaythreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaytwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XboxeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XboxsevenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XboxsixActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XboxfiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XboxfourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XboxthreeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XboxtwoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XboxoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".gamepcloader"
+            android:exported="false" />
+        <activity
+            android:name=".GamingPcActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GameSetupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".setuploader"
+            android:exported="false" />
+        <activity
+            android:name=".VirtualActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vrloader"
+            android:exported="false" />
+        <activity
+            android:name=".PlaystationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".playstationloader"
+            android:exported="false" />
+        <activity
+            android:name=".NintendoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".xboxloader"
+            android:exported="false" />
+        <activity
+            android:name=".Console"
+            android:exported="false" />
+        <activity
+            android:name=".XboxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".registerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
